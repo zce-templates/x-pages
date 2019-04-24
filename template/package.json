@@ -1,0 +1,46 @@
+{
+  "name": "<%= name %>",
+  "version": "<%= version %>",
+  "private": true,
+  "description": "<%= description %>",
+  "keywords": [
+    "<%= name %>",
+    "pages",
+    "zce"
+  ],
+  "homepage": "https://github.com/<%= github %>/<%= name %>#readme",
+  "bugs": {
+    "url": "https://github.com/<%= github %>/<%= name %>/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/<%= github %>/<%= name %>.git"
+  },
+  "license": "<%= license %>",
+  "author": "<%= author %>",
+  "scripts": {
+    "clean": "x-pages clean",
+    "lint": "x-pages lint",
+    "serve": "x-pages serve",
+    "build": "x-pages build",
+    "start": "x-pages start",
+    "deploy": "x-pages deploy --production"
+  },
+  "browserslist": [
+    "last 1 version",
+    "> 1%",
+    "maintained node versions",
+    "not dead"
+  ],
+  "dependencies": {
+    "bootstrap": "^4.3.1",
+    "jquery": "^3.4.0",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {
+    "x-pages": "latest"
+  },
+  "engines": {
+    "node": ">=6"
+  }
+}

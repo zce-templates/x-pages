@@ -1,0 +1,30 @@
+{
+	"folders": [
+		{
+      "name": "src",
+			"path": "src"
+		},
+		{
+      "name": "dist",
+			"path": "dist"
+		},
+		{
+      "name": "root",
+			"path": "."
+		}
+	],
+	"extensions": {
+		"recommendations": [
+      "editorconfig.editorconfig",
+      "batisteo.vscode-django"
+		]
+	},
+	"settings": {
+    "explorer.openEditors.visible": 0,
+    "files.exclude": {
+      "node_modules": true,
+      "temp": true,
+      "<%= name %>.code-workspace": true
+    }
+  }
+}
