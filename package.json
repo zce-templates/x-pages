@@ -27,12 +27,12 @@
     "test": "standard --fix && ava --verbose"
   },
   "dependencies": {
-    "x-pages": "^0.6.0"
+    "x-pages": "^1.0.0-beta.1"
   },
   "devDependencies": {
-    "ava": "^1.4.1",
+    "ava": "^2.2.0",
     "mock-prompt": "^0.1.4",
-    "standard": "^12.0.1",
+    "standard": "^13.1.0",
     "zce-cli": "^0.2.0-alpha.13"
   },
   "ava": {
