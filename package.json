@@ -33,7 +33,7 @@
     "ava": "^2.2.0",
     "mock-prompt": "^0.1.4",
     "standard": "^13.1.0",
-    "zce-cli": "^0.2.0-alpha.13"
+    "zce-cli": "^0.2.0"
   },
   "ava": {
     "files": [

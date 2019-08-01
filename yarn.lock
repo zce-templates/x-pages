@@ -1521,6 +1521,20 @@ boxen@^3.0.0:
     type-fest "^0.3.0"
     widest-line "^2.0.0"
 
+boxen@^4.1.0:
+  version "4.1.0"
+  resolved "https://registry.npm.taobao.org/boxen/download/boxen-4.1.0.tgz#256f6b2eb09ba22ea558e5acc0a5ff637bf8ed03"
+  integrity sha1-JW9rLrCboi6lWOWswKX/Y3v47QM=
+  dependencies:
+    ansi-align "^3.0.0"
+    camelcase "^5.3.1"
+    chalk "^2.4.2"
+    cli-boxes "^2.2.0"
+    string-width "^4.1.0"
+    term-size "^2.1.0"
+    type-fest "^0.5.2"
+    widest-line "^3.1.0"
+
 brace-expansion@^1.1.7:
   version "1.1.11"
   resolved "https://registry.npm.taobao.org/brace-expansion/download/brace-expansion-1.1.11.tgz#3c7fcbf529d87226f3d2f52b966ff5271eb441dd"
@@ -2206,7 +2220,7 @@ commander@2.17.x:
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.17.1.tgz?cache=0&sync_timestamp=1564195111889&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.17.1.tgz#bd77ab7de6de94205ceacc72f1716d29f20a77bf"
   integrity sha1-vXerfebelCBc6sxy8XFtKfIKd78=
 
-commander@^2.19.0, commander@^2.2.0, commander@^2.6.0, commander@~2.20.0:
+commander@^2.19.0, commander@^2.2.0, commander@^2.20.0, commander@^2.6.0, commander@~2.20.0:
   version "2.20.0"
   resolved "https://registry.npm.taobao.org/commander/download/commander-2.20.0.tgz?cache=0&sync_timestamp=1564195111889&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Fcommander%2Fdownload%2Fcommander-2.20.0.tgz#d58bb2b5c1ee8f87b0d340027e9e94e222c5a422"
   integrity sha1-1YuytcHuj4ew00ACfp6U4iLFpCI=
@@ -4077,7 +4091,7 @@ fstream@^1.0.0, fstream@^1.0.12:
     mkdirp ">=0.5 0"
     rimraf "2"
 
-fullname@^4.0.0:
+fullname@^4.0.1:
   version "4.0.1"
   resolved "https://registry.npm.taobao.org/fullname/download/fullname-4.0.1.tgz#c4b0d85a90f8f4847980a5e7a859b86f89c49331"
   integrity sha1-xLDYWpD49IR5gKXnqFm4b4nEkzE=
@@ -5137,7 +5151,7 @@ ini@^1.3.4, ini@~1.3.0:
   resolved "https://registry.npm.taobao.org/ini/download/ini-1.3.5.tgz#eee25f56db1c9ec6085e0c22778083f596abf927"
   integrity sha1-7uJfVtscnsYIXgwid4CD9Zar+Sc=
 
-inquirer@^6.2.2, inquirer@^6.4.1:
+inquirer@^6.2.2, inquirer@^6.4.1, inquirer@^6.5.0:
   version "6.5.0"
   resolved "https://registry.npm.taobao.org/inquirer/download/inquirer-6.5.0.tgz#2303317efc9a4ea7ec2e2df6f86569b734accf42"
   integrity sha1-IwMxfvyaTqfsLi32+GVptzSsz0I=
@@ -6152,7 +6166,7 @@ lodash.uniq@^4.5.0:
   resolved "https://registry.npm.taobao.org/lodash.uniq/download/lodash.uniq-4.5.0.tgz#d0225373aeb652adc1bc82e4945339a842754773"
   integrity sha1-0CJTc662Uq3BvILklFM5qEJ1R3M=
 
-lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@~4.17.10:
+lodash@^4.0.0, lodash@^4.17.10, lodash@^4.17.11, lodash@^4.17.12, lodash@^4.17.13, lodash@^4.17.14, lodash@^4.17.15, lodash@~4.17.10:
   version "4.17.15"
   resolved "https://registry.npm.taobao.org/lodash/download/lodash-4.17.15.tgz?cache=0&other_urls=https%3A%2F%2Fregistry.npm.taobao.org%2Flodash%2Fdownload%2Flodash-4.17.15.tgz#b447f6670a0455bbfeedd11392eff330ea097548"
   integrity sha1-tEf2ZwoEVbv+7dETku/zMOoJdUg=
@@ -7058,7 +7072,7 @@ optipng-bin@^5.0.0:
     bin-wrapper "^4.0.0"
     logalot "^2.0.0"
 
-ora@^3.1.0, ora@^3.4.0:
+ora@^3.4.0:
   version "3.4.0"
   resolved "https://registry.npm.taobao.org/ora/download/ora-3.4.0.tgz#bf0752491059a3ef3ed4c85097531de9fdbcd318"
   integrity sha1-vwdSSRBZo+8+1MhQl1Md6f280xg=
@@ -8590,7 +8604,7 @@ semver-truncate@^1.1.2:
   resolved "https://registry.npm.taobao.org/semver/download/semver-5.7.0.tgz#790a7cf6fea5459bac96110b29b60412dc8ff96b"
   integrity sha1-eQp89v6lRZuslhELKbYEEtyP+Ws=
 
-semver@^6.0.0, semver@^6.1.0, semver@^6.1.1, semver@^6.1.2, semver@^6.2.0:
+semver@^6.0.0, semver@^6.1.0, semver@^6.1.1, semver@^6.1.2, semver@^6.2.0, semver@^6.3.0:
   version "6.3.0"
   resolved "https://registry.npm.taobao.org/semver/download/semver-6.3.0.tgz#ee0a64c8af5e8ceea67687b133761e1becbd1d3d"
   integrity sha1-7gpkyK9ejO6mdoexM3YeG+y9HT0=
@@ -9103,7 +9117,7 @@ string-width@^3.0.0:
     is-fullwidth-code-point "^2.0.0"
     strip-ansi "^5.1.0"
 
-string-width@^4.1.0:
+string-width@^4.0.0, string-width@^4.1.0:
   version "4.1.0"
   resolved "https://registry.npm.taobao.org/string-width/download/string-width-4.1.0.tgz#ba846d1daa97c3c596155308063e075ed1c99aff"
   integrity sha1-uoRtHaqXw8WWFVMIBj4HXtHJmv8=
@@ -9372,6 +9386,11 @@ term-size@^1.2.0:
   integrity sha1-RYuDiH8oj8Vtb/+/rSYuJmOO+mk=
   dependencies:
     execa "^0.7.0"
+
+term-size@^2.1.0:
+  version "2.1.0"
+  resolved "https://registry.npm.taobao.org/term-size/download/term-size-2.1.0.tgz#3aec444c07a7cf936e157c1dc224b590c3c7eef2"
+  integrity sha1-OuxETAenz5NuFXwdwiS1kMPH7vI=
 
 ternary-stream@^2.0.1:
   version "2.1.1"
@@ -9896,7 +9915,7 @@ useref@^1.4.1:
   resolved "https://registry.npm.taobao.org/useref/download/useref-1.4.1.tgz#02dabad10b1a85025d964252fca31b805931ad7d"
   integrity sha1-Atq60QsahQJdlkJS/KMbgFkxrX0=
 
-username@^5.0.0:
+username@^5.1.0:
   version "5.1.0"
   resolved "https://registry.npm.taobao.org/username/download/username-5.1.0.tgz#a7f9325adce2d0166448cdd55d4985b1360f2508"
   integrity sha1-p/kyWtzi0BZkSM3VXUmFsTYPJQg=
@@ -10120,6 +10139,13 @@ widest-line@^2.0.0:
   integrity sha1-dDh2RzDsfvQ4HOTfgvuYpTFCo/w=
   dependencies:
     string-width "^2.1.1"
+
+widest-line@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.npm.taobao.org/widest-line/download/widest-line-3.1.0.tgz#8292333bbf66cb45ff0de1603b136b7ae1496eca"
+  integrity sha1-gpIzO79my0X/DeFgOxNreuFJbso=
+  dependencies:
+    string-width "^4.0.0"
 
 win-fork@^1.1.1:
   version "1.1.1"
@@ -10391,25 +10417,25 @@ yeast@0.1.2:
   resolved "https://registry.npm.taobao.org/yeast/download/yeast-0.1.2.tgz#008e06d8094320c372dbc2f8ed76a0ca6c8ac419"
   integrity sha1-AI4G2AlDIMNy28L47XagymyKxBk=
 
-zce-cli@^0.2.0-alpha.13:
-  version "0.2.0-alpha.13"
-  resolved "https://registry.npm.taobao.org/zce-cli/download/zce-cli-0.2.0-alpha.13.tgz#a85fd349606d3f3f15e72a3626af0f996fe7f547"
-  integrity sha1-qF/TSWBtPz8V5yo2Jq8PmW/n9Uc=
+zce-cli@^0.2.0:
+  version "0.2.0"
+  resolved "https://registry.npm.taobao.org/zce-cli/download/zce-cli-0.2.0.tgz#69f9a7a12ed4706dd8ecd6e997589934bd94b6db"
+  integrity sha1-afmnoS7UcG3Y7Nbpl1iZNL2Utts=
   dependencies:
-    boxen "^3.0.0"
+    boxen "^4.1.0"
     chalk "^2.4.2"
-    commander "^2.19.0"
+    commander "^2.20.0"
     download "^7.1.0"
-    fullname "^4.0.0"
-    inquirer "^6.2.2"
-    lodash "^4.17.11"
+    fullname "^4.0.1"
+    inquirer "^6.5.0"
+    lodash "^4.17.15"
     log-symbols "^3.0.0"
     metalsmith "^2.3.0"
     minimatch "^3.0.4"
     mkdirp "^0.5.1"
-    ora "^3.1.0"
+    ora "^3.4.0"
     rc "^1.2.8"
     rimraf "^2.6.3"
-    semver "^6.0.0"
-    username "^5.0.0"
+    semver "^6.3.0"
+    username "^5.1.0"
     validate-npm-package-name "^3.0.0"
