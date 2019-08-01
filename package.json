@@ -27,7 +27,7 @@
     "test": "standard --fix && ava --verbose"
   },
   "dependencies": {
-    "x-pages": "^1.0.0-beta.1"
+    "x-pages": "1.0.0-beta.1"
   },
   "devDependencies": {
     "ava": "^2.2.0",
